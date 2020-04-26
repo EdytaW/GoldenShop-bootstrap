@@ -1,0 +1,102 @@
+.navigation {
+    background: #0097e6;
+    padding: 12px 0;
+    color: red;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.splash {
+    text-align: center;
+}
+
+
+
+.footer-list {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer-list ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-list li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.footer-list i {
+    font-size: 30px;
+    background: black;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    border-radius: 50%;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/211856/pexels-photo-211856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-one {
+    background: orange;
+    color: black;
+}
+
+.card {
+    border: white;
+    text-align: center;
+}
+
+.card-body i {
+    color: orange;
+    font-size: 40px;
+}
+
+.our-portfolio {
+    background: #f0f0f0;
+}
