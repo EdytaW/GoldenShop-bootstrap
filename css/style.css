@@ -36,13 +36,19 @@
   border-radius: 50%;
 }
 
-h2,
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
 p {
   text-align: center;
+  font-family: "Farsan", cursive;
+  color: gray;
 }
 
 .intro {
-  background-image: url("https://images.pexels.com/photos/211856/pexels-photo-211856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=12600");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -64,7 +70,10 @@ p {
 
 .btn-one {
   background: orange;
-  color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 .card {
@@ -82,26 +91,27 @@ p {
 }
 
 .nav-link {
-  color: grey;
-  font-weight: bold;
-  font-size: 25px;
+  color: white;
+  font-size: 20px;
 }
 
 .navbar-brand {
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 40px;
+  font-size: 30px;
+  padding-left: 100px;
   font-family: "Pacifico", cursive;
   color: orange;
 }
 
 .page-title {
-  margin-bottom: 5%;
+  font-family: italic;
   font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .page-subtitle {
-  font-size: 45px;
-  margin-bottom: 5%;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
