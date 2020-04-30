@@ -15,24 +15,21 @@
 
 <body>
     <section class="intro p-5">
-        <ul class="nav justify-content-end">
-            <p class="navbar-brand mr-auto">Golden</p>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-        </ul>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <a class="navbar-brand">Golden</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="#">HOME</a></li>
+                    <li><a class="nav-link" href="#">SERVICES</a></li>
+                    <li><a class="nav-link" href="#">PORTFOLIO</a></li>
+                    <li><a class="nav-link" href="#">ABOUT</a></li>
+                    <li><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <header class="splash">
             <div class="splash-inner">
@@ -44,14 +41,14 @@
     </section>
 
     <section class="services p-5">
+        <h2>SERVICES</h2>
+        <p>Proin iaculis purus consequant sem cure.</p>
         <div class="container">
-            <h2>SERVICES</h2>
-            <p>Proin iaculis purus consequant sem cure.</p>
             <div class="row">
                 <div class="col-md-4 col-sm">
                     <div class="card p-3 mb-3">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md">
                                 <div class="card-body">
                                     <i class="fas fa-shopping-basket"></i>
                                     <h3>Free shipping</h3>
@@ -65,7 +62,7 @@
                 <div class="col-md-4 col-sm">
                     <div class="card p-3  mb-3">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md">
                                 <div class="card-body">
                                     <i class="fas fa-laptop"></i>
                                     <h3>60-day refund</h3>
@@ -78,7 +75,7 @@
                 <div class="col-md-4 col-sm">
                     <div class="card p-3 mb-3">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md">
                                 <div class="card-body">
                                     <i class="fas fa-unlock-alt"></i>
                                     <h3>24/7 support</h3>
@@ -174,13 +171,13 @@
             <!-- Grid row -->
             <div class="row d-flex align-items-center">
                 <!--Copyright-->
-                <p class="text-center text-md-left">© 2020 Copyright:
+                <p class="text-center text-lg-left col-12 col-lg-4">© 2020 Copyright:
                     <a href="https://mdbootstrap.com/">
                         <strong> FreebiesXpress.com</strong>
                     </a>
                 </p>
 
-                <footer class="footer-list text-sm-right">
+                <footer class="footer-list text-sm-right col-12 col-lg-4">
                     <ul>
                         <li><a href="#"><i class="fab fa-twitter"></i>>Twitter</a></li>
                         <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
